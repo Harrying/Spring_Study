@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f78603e2-7411-438b-8515-e57613e76335" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\mySTUDY\maven_spance\repo" />
+        <option name="userSettingsFile" value="C:\mySTUDY\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1OU87NOMP8GXtc1J83CX3A2foR1" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hairui.aop.demo5" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HaiRui\Desktop\JAVA\spring资料\spring_AOP\src\main\java\com\hairui\aop\demo6" />
+      <recent name="C:\Users\HaiRui\Desktop\JAVA\spring资料\spring_AOP\src\main\java\com\hairui\aop\demo5" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringDemo6.demo1">
+    <configuration name="SpringDemo2.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hairui.aop.demo2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hairui.aop.demo2" />
+      <option name="MAIN_CLASS_NAME" value="com.hairui.aop.demo2.SpringDemo2" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo3.Test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hairui.aop.demo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hairui.aop.demo3" />
+      <option name="MAIN_CLASS_NAME" value="com.hairui.aop.demo3.SpringDemo3" />
+      <option name="METHOD_NAME" value="Test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo4.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hairui.aop.demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hairui.aop.demo4" />
+      <option name="MAIN_CLASS_NAME" value="com.hairui.aop.demo4.SpringDemo4" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo5.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hairui.aop.demo5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hairui.aop.demo5" />
+      <option name="MAIN_CLASS_NAME" value="com.hairui.aop.demo5.SpringDemo5" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDemo6.demo1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_AOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hairui.aop.demo6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hairui.aop.demo6" />
+      <option name="MAIN_CLASS_NAME" value="com.hairui.aop.demo6.SpringDemo6" />
+      <option name="METHOD_NAME" value="demo1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringDemo6.demo1" />
+        <item itemvalue="JUnit.SpringDemo5.demo1" />
+        <item itemvalue="JUnit.SpringDemo4.demo1" />
+        <item itemvalue="JUnit.SpringDemo3.Test4" />
+        <item itemvalue="JUnit.SpringDemo2.demo1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\HaiRui\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f78603e2-7411-438b-8515-e57613e76335" name="Default Changelist" comment="" />
+      <created>1563965145175</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563965145175</updated>
+      <workItem from="1563965150281" duration="2304000" />
+      <workItem from="1564018431653" duration="2146000" />
+      <workItem from="1564020652319" duration="10777000" />
+      <workItem from="1564129657959" duration="1250000" />
+      <workItem from="1564132984841" duration="4000" />
+      <workItem from="1564133334078" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hairui/aop/demo1/UserDaoImpl.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
