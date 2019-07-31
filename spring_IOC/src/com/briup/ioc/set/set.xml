@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean name="stu" class="com.briup.bean.Student">
+		<property name="id">
+			<value>1</value>
+		</property>
+		<property name="name" value="zahngsan"></property>
+		<property name="age" value="21"></property>
+	</bean>
+
+	<alias name="stu" alias="s"/>
+
+	<bean name="teacher" class="com.briup.bean.Teacher">
+		<property name="id" value="1"></property>
+		<property name="name" value="zz"></property>
+		<property name="student" ref="s"></property>
+	</bean>
+	<!-- 知识点1
+			Spring容器默认是单例模式管理对象
+		通过相同的名字，多次懂容器中获取数据，拿到的都是同一个对象
+			Spring可以通过非单例模式管理对象
+		只需要给对应点额Bean加上一个属性scope="prototype"
+	-->
+	<!--知识点2
+		<bean name = "..."  class = "..."
+		name的值是随便起的
+		class表示配置的一个类的地址用来初始化对象
+		<property name="。。。" value="。。。"></property>
+		name的值表示对象中的一个方法，value对应通过set方式存进去的值
+		<property name="student" ref="stu"></property>
+		 ref属性调用ref属性值所对应的的bean对象，通过setStudent方法赋值
+	-->
+	<!--知识点3
+		可以给某一对象起别名
+		<alias name="stu" alias="s"></alias>
+		别名和对象的地址保持一致
+	-->
+	<!--知识点4
+		在单例模式下，一个类想创建多个不同的对象
+		只需要初始化多次bean。name的属性值不一样就可以
+		bean里面的name属性可以替换成id属性
+	-->
+</beans>

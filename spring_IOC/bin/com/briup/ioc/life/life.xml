@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!--<bean name="life" class="com.briup.ioc.life.Life"
+		  init-method="myInit" destroy-method="myDestroy">
+		<property name="name" value="张三"></property>
+	</bean>
+	<bean class="com.briup.ioc.life.MyBeanPostProcessor"></bean>-->
+
+	<!--<bean name="life" class="com.briup.ioc.life.LifeBean"
+	 destroy-method="destory" lazy-init="true">
+		<property name="name" value="彭于晏"></property>
+ 	</bean>-->
+	<bean name="life" class="com.briup.ioc.life.LifeBean"
+		  init-method="init"  destroy-method="destory"  scope="prototype">
+		<property name="name" value="彭于晏"></property>
+	</bean>
+	<!-- 
+		spring容器管理的对象的生命周期:
+		
+		单例管理的对象:
+		1.默认情况下,spring在读取xml文件的时候,就会创建对象
+		2.进行依赖注入,如果有依赖的话
+		3.会去调用init-method=".."属性值中所指定的方法,如果有该配置的话
+		4.Bean对象可以被正常使用
+		5.对象在被销毁的时候,会调用destroy-method="..."属性值中所指定的方法,如果有该配置的话
+
+		注意1:调用container.destroy()方法会销毁单例对象
+		注意2:lazy-init="true",可以让这个Bean对象在第一次被访问的时候创建,而不是读取xml文件就被创建
+		注意3:因为是单例,所以该对象只会被创建一次
+		
+		非单例管理的对象:
+		1.使用这个对象的时候,spring容器会创建这个对象
+		2.进行依赖注入,如果有依赖的话
+		3.会去调用init-method=".."属性值中所指定的方法,如果有该配置的话
+		4.Bean对象可以被正常使用
+
+		注意1:spring容器不会销毁非单例对象
+		注意2:因为是非单例,所以每次使用都会创建一个新的Bean对象  	
+	-->
+
+	
+
+</beans>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+        
+	<bean name="student" class="com.briup.bean.Student">
+		<property name="list">
+			<list>
+				<value>zz</value>
+				<value>ww</value>
+				<value>tom</value>
+			</list>
+		</property>
+		<property name="set">
+			<set>
+				<value>jack</value>
+				<value>lili</value>
+				<value>terry</value>
+			</set>
+		</property>
+		<property name="map">
+			<map>
+				<entry key="1" value="赵丽颖"></entry>
+				<entry key="2" value="郑爽"></entry>
+				<entry key="3" value="杨紫"></entry>
+			</map>
+		</property>
+		<property name="prop">
+			<props>
+				<prop key="A">green</prop>
+				<prop key="B">red</prop>
+				<prop key="C">blue</prop>
+			</props>
+		</property>
+	</bean>
+    
+
+</beans>

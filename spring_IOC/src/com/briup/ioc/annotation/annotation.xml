@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		    xmlns:context="http://www.springframework.org/schema/context"
+		    xsi:schemaLocation="
+   http://www.springframework.org/schema/beans 
+   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+   http://www.springframework.org/schema/context 
+   http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+   <!-- <bean name="car" class="com.briup.ioc.annotation.Car">
+    <property name="name" value="奥迪A6"></property>
+     <property name="price" value="200000"></property>
+   </bean> -->
+    <!-- <bean name="car2" class="com.briup.ioc.annotation.Car">
+    <property name="name" value="兰博基尼"></property>
+     <property name="price" value="2000000"></property>
+   </bean> -->
+   <!-- <bean name="office" class="com.briup.ioc.annotation.Office">
+    <property name="num" value="001"></property>
+   </bean> -->
+	<!-- <bean name="boss" class="com.briup.ioc.annotation.Boss">
+	  <property name="name" value="tom"></property>
+	  <property name="office" ref="office"></property>
+	  <property name="car" ref="car"></property>
+	</bean> -->
+	<!-- 使@Autowired生效 -->
+	<!--使@Resource生效  -->
+	<!-- <context:annotation-config/> -->
+	<context:component-scan base-package="com.briup"></context:component-scan>
+</beans>
+
+

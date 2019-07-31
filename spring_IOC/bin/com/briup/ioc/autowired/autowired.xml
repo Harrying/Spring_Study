@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean name="student" class="com.briup.bean.Student">
+		<property name="id" value="1"></property>
+		<property name="name" value="杨幂"></property>
+		<property name="age" value="21"></property>
+	</bean>
+
+	<bean name="teacher" class="com.briup.bean.Teacher" autowire="byType">
+		<property name="id" value="1"></property>
+		<property name="name" value="zz"></property>
+		<!--<property name="student" ref="s"></property>-->
+	</bean>
+
+	<!--
+    	autowire="byName":
+    		spring容器会到当前的类中找property的名字,然后
+    		再根据这个名字去spring容器中找有没有和这个property
+    		名字相同的对象,有的话,就把这个对象当做参数放到
+    		setXxxx这个方法里面注入进来.
+    		注意:了解property指的类中的什么东西。
+    		
+    	autowire="byType":
+    		spring容器会根据当前类中的set方法里面参数的类型,
+    		去容器中找相匹配的对象,如果没找到就算了,如果找到
+    		一个就注入进来,如果找到多个,那么就会报错了.
+    		
+    	default-autowire="byName"
+    		在根元素beans中加入这个属性,那么下面所有的bean都会
+    		使用byName的方式进行自动注入,如果在下面的某一个bean
+    		里面想使用其他的方式进行注入,可以用autowire=""属性进行
+    		说明,或者某一个bean不想使用任何自动注入就使用autowire="no"
+     -->
+    
+</beans>
