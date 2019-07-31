@@ -55,11 +55,11 @@
       <version>4.12</version>
     </dependency>
     <!--引入Spring的基本开发包-->
-    <dependency>
+    <!--<dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
       <version>4.2.4.RELEASE</version>
-    </dependency>
+    </dependency>-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
